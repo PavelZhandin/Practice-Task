@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- свои стили -->
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <!-- Подключение Fontawesome -->
+    <script src="https://kit.fontawesome.com/fbfb719215.js" crossorigin="anonymous"></script>
+    <title>My project</title>
+</head>
+
+<body>
+    <main>
+        <div class=" wrapper">
+            <div class="sidebar">
+                <h2>NavBar</h2>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i>Главная</a></li>
+                    <li><a href="#"><i class="fas fa-user"></i>Профиль</a></li>
+                    <li><a href="#"><i class="fas fa-address-card"></i>Обучающие статьи</a></li>
+                    <li><a href="articles_page.html"><i class="fas fa-project-diagram"></i>Задания</a></li>
+                    <li><a href="#"><i class="fas fa-blog"></i>Блоги</a></li>
+                    <li><a href="#"><i class="fas fa-address-book"></i>Контакты</a></li>
+                    <li><a href="#"><i class="fas fa-map-pin"></i>Мы на карте</a></li>
+                </ul>
+
+                <div class="social_media">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+
+                </div>
+            </div>
+
+
+            <div class="main_content">
+                <div class="header">
+                    <h2>Погружение в HTML</h2>
+                </div>
+
+                <div class="info">
+                    <div class="container container-fluid">
+
+
+                        <h2 class="text-dark">Быстрый старт</h2>
+                        <p>В этой статье мы охватим азы HTML, необходимые для начала работы. Дадим определение
+                            «элементам», «атрибутам», «тегам» и прочим важным понятиям, о которых вы, возможно, слышали,
+                            а также об их роли в языке. Мы также покажем, как устроены HTML-элементы, типичная
+                            HTML-страница, и объясним другие важные аспекты языка. По ходу дела, чтобы вы не заскучали,
+                            мы поиграем с настоящей HTML-страницей!</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt tempore nemo, explicabo
+                            nulla praesentium laborum quos eaque assumenda! Iure quis, illum eum inventore officia nisi
+                            quo voluptatem laborum ratione exercitationem!</p>
+
+
+
+                        <div class="knowledge d-flex">
+                            <div class="row">
+                                <div class="col-3">
+                                    <strong>Необходимые знания:</strong>
+                                </div>
+                                <div class="col-9">
+                                    <p>Умение работать с компьютером, наличие <a>необходимого ПО</a>, базовые знания о
+                                        <a href=""> работе с
+                                            файлами</a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-3">
+                                    <strong>Цель:</strong>
+                                </div>
+                                <div class="col-9">
+                                    <p>Познакомиться с языком HTML и научиться описывать некоторые его элементы.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--Конец блока knowledge  -->
+                        <hr class="special_hr">
+                        <h2 class="text-dark">Что такое HTML?</h2>
+
+                        HTML (HyperText Markup Language - язык гипертекстовой разметки) не является языком
+                        программирования; это язык разметки, используемый для определения структуры веб-страниц,
+                        посещаемых пользователями. Они могут иметь сложную или простую структуру, всё зависит от замысла
+                        и желания веб-разработчика. HTML состоит из ряда элементов, которые вы используете для того,
+                        чтобы охватить, обернуть или разметить различные части содержимого, чтобы оно имело определенный
+                        вид или срабатывало определенным способом. Встроенные тэги могут преобразовать часть содержимого
+                        в гиперссылку, по которой можно перейти на другую веб-страницу, выделить курсивом слова и так
+                        далее. Например, рассмотрим следующую строку:
+
+                        <div class="knowledge d-flex bg-light">
+                            <span>Мой кот очень сердитый</span>
+                        </div>
+
+                        Если мы хотим, чтобы строка отобразилась в таком же виде, мы можем определить её, как
+                        "параграф", заключив её в теги элемента "параграф", например:
+
+
+                        <!-- <div class="knowledge  bg-warning">
+                            <span class="font-weight-bold"> Примечание: </span>Метки в HTML нечувствительны к регистру,
+                            то есть они могут быть записаны в
+                            верхнем или нижнем регистре. Например, тег <code><title></code> может быть записан как
+                            <title>, <TITLE>,
+                                    <Title>, <>, и т.д., и он будет работать нормально. Лучшей практикой,
+                                            однако, является запись всех тегов в нижнем регистре для обеспечения
+                                            согласованности, удобочитаемости и других причин.
+                        </div> -->
+
+                        <hr class="special_hr">
+
+                        <h2 class="text-dark">Что такое HTML?</h2>
+                        <p>Давайте рассмотрим элемент "параграф" чуть подробнее:</p>
+                        <img src="assets/images/article_image1.png" class="img-fluid mx-auto" alt="Responsive image">
+
+                        <p>Основными частями элемента являются:</p>
+                        <ol class="ordered_list">
+                            <li><strong>Открывающий тег:</strong> Он состоит из названия (обозначения) элемента (в нашем
+                                случае, p),
+                                помещённого внутри угловых скобок. Данный тег служит признаком начала элемента, с этого
+                                момента тег начинает влиять на следующее после него содержимое.</li>
+
+                            <li><strong>Закрывающий тег:</strong> выглядит как и открывающий, но содержит слэш перед
+                                названием тега. Он
+                                служит признаком конца элемента. Пропуски закрывающих тегов — типичная ошибка новичков,
+                                которая может приводить к неопределённым результатам — в лучшем случае всё сработает
+                                правильно, в других страница может вовсе не прорисоваться или прорисоваться не как
+                                ожидалось.</li>
+                            <li><strong>Содержимое:</strong> Как видно, в нашем случае содержимым является простой
+                                текст.</li>
+                            <li><strong> Элемент:</strong> открывающий тег + закрывающий тег + содержимое = элемент.
+                            </li>
+                        </ol>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+    </main>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+
+    <!-- Собственный JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
