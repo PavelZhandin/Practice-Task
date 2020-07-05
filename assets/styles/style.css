@@ -242,6 +242,7 @@ img[src="assets/images/article_image1.png"]{
 }
 
 .rectangle .text a{
+  
   color: #828282;
   text-decoration: none;
   outline: none;
@@ -253,7 +254,28 @@ img[src="assets/images/article_image1.png"]{
   width: 100%;
 }
 
+.assignment_list a{
+  box-sizing: border-box;
+  padding: 8px;
+}
 
-.assignment_list{
-  
+.assignment_list a:hover{
+  text-decoration: none;
+  background-color:  rgb(128, 128, 128, 0.2 );
+}
+.assignment_list li{
+  list-style: none;
+}
+
+
+.left, .right {
+  margin-bottom: 0px !important;
+}
+.assignment_list li a{
+  display: flex;
+  justify-content: space-between;
+}
+
+.task h5{
+  background-color:  rgb(128, 128, 128, 0.2 );
 }

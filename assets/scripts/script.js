@@ -22,3 +22,8 @@ $("#login").on("click", changleVisibility);
 
 $("#phone_autorization").on("click", showPhoneBlock);
 
+
+
+
+
+

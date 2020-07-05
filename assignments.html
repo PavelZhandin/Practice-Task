@@ -226,7 +226,57 @@
 
 
 
+    <footer>
 
+        <div id="dimm" class="d-none dimm">
+        </div>
+        <div id="social_network" class="rectangle m-auto d-none text-center">
+            <h4>Вход</h4>
+            <div class="header d-flex flex-column">
+
+                <div class="component_wrapper ">
+                    <a href="" class="btn btn-primary btn-block ">
+                        <i class="fa fa-vk"></i>
+                        <span>Войти через ВКонтакте</span>
+                    </a>
+                </div>
+
+                <div class="component_wrapper ">
+                    <a href="" class="btn btn-primary  btn-block">
+                        <i class="fa fa-facebook"></i>
+                        <span>Войти через FaceBook</span>
+                    </a>
+                </div>
+
+                <div class="text center">
+                    <a id="phone_autorization" href="#">Войти с помощью телефона</a>
+                </div>
+
+                <div class="wrapper"></div>
+            </div>
+            <hr id="autorization_hr" class="d-none">
+            <div id="phone_autorization_block" class="rectangle m-auto  d-none text-center">
+
+                <form action="POST" class="d-flex flex-column" autocomplete="off">
+                    <div class="component_wrapper ">
+                        <input type="text" name="login" placeholder="Номер телефона">
+                    </div>
+
+                    <div class="component_wrapper ">
+                        <input type="text" name="login" placeholder="Пароль">
+                    </div>
+
+                    <div class="component_wrapper ">
+                        <a href="" class="btn btn-primary btn-block ">
+
+                            <strong>Войти </strong>
+                        </a>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </footer>
 
 
 
@@ -248,7 +298,6 @@
 
 
     <!-- Собственный JS -->
-    <script src="script.js"></script>
-</body>
+    <script src="assets/scripts/script.js"></script>
 
 </html>
