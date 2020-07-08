@@ -113,7 +113,8 @@ body{
 .wrapper .main_content .header{
   padding: 20px;
   background-color: #fff;
-  color: #717171;
+  /* color: #717171; */
+  color: #000;
   border-bottom: 1px solid #e0e4e8;
 }
 

@@ -1,0 +1,47 @@
+.blog_heading{
+    padding-left: 15px;
+}
+.jumbotron{
+    color: #FFF;
+    background-size: cover;
+}
+#pinterest {
+   
+    
+    background: url("/assets/images/pinterest_bg2.jpg");
+    background-size: cover;
+}
+
+#unsplash{
+    background: url("/assets/images/unsplash2.png");
+    background-size: cover;
+}
+
+#behance{
+    background: url("/assets/images/behance.jpg");
+    background-size: cover;
+}
+
+#JSFiddle{
+    background: url("/assets/images/JSFiddle.jpg");
+}
+
+#GoormIDE{
+    background: url("/assets/images/goormIde.png");
+    background-size: cover;
+}
+
+#css_tricks{
+    background: url("/assets/images/css_tricks.jpg");
+    background-size: cover;
+}
+
+#Font_Awesome{
+    background: url("/assets/images/Font-Awesome.jpg");
+    background-size: cover;
+}
+
+#Google_Fonts{
+    background: url("/assets/images/google_fonts.jpg");
+    background-size: cover;
+}

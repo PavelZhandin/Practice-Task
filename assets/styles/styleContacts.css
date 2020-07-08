@@ -1,0 +1,101 @@
+h3{
+  color: #000;
+}
+.col-12{
+  text-align: center;
+  /* margin-bottom: 30px; */
+  /* margin:auto; */
+}
+.col-4{
+  border-right: 1px dashed black; 
+}
+#container.d-flex{
+  margin: auto;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.nesolestag-enadenud {
+    /* width: 500px; */
+    /* border-right: 1px dashed black; */
+  }
+  
+  .kesednsoled:after,
+  .kesednsoled:before {
+    content: ".";
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+    clear: both;
+  }
+  .ico-wrap {
+    color: #594f8d;
+    width: 48px;
+    height: 48px;
+    margin: 30px 18px 5px 5px;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid #594f8d;
+    float: left;
+    border-radius: 30px;
+  }
+  .ico-contact {
+    line-height: 1.9 !important;
+  }
+  .meanous-andscoev {
+    float: left;
+    margin-bottom: 20px;
+  }
+  .aio-icon-title {
+    font-size: 16px;
+    color: #594f8d;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  .aio-icon-description{
+    font-size: 1.2em;
+  }
+  .aio-icon-description#address{
+    font-weight: bold;
+    /*  olor: black; */
+  }
+  
+  @media (max-width: 1200px){
+    .meanous-andscoev,
+    .ico-wrap {
+    float: none;
+    text-align: center;
+    }
+    .ico-wrap {
+    margin: 0 auto 15px auto;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .meanous-andscoev,
+    .ico-wrap {
+    float: none;
+    text-align: center;
+    }
+    .ico-wrap {
+    margin: 0 auto 15px auto;
+    }
+  }
+
+  form{
+    padding: 30px;
+  }
+  iframe{
+    margin: 5px 10px 0 10px;
+    border: 3px solid lightblue;
+  }
+
+  i.fa-map-pin{
+    padding: 5px;
+    margin-right: 5px;
+  }
